@@ -1,0 +1,22 @@
+{
+    "name": "yangweijie/think-orm-kdb",
+    "description": "人大金库驱动 for think-orm",
+    "type": "library",
+    "require": {
+        "php": "^7.0",
+        "topthink/think-orm": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\db\\": "src/"
+        }
+    },
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "yangweijie",
+            "email": "917647288@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
