@@ -67,10 +67,15 @@ Test::json(['content'])->where('id', 1)->update([
 
 直接以pgsql 方式可以连接
 
+## 参考
+
+[KingbaseES与MySQL的兼容性说明 ](https://help.kingbase.com.cn/v8/development/develop-transfer/kes-vs-mysql/index.html)
 
 ## 难点
+乱码？ 未复现，尝试 在会话里set names 成功
+## todo
 
-- 报错 乱码问题
+[] 不兼容函数测试
 
 
 

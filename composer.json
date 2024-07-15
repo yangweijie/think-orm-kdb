@@ -3,7 +3,7 @@
     "description": "人大金库驱动 for think-orm",
     "type": "library",
     "require": {
-        "php": "7.2",
+        "php": "5.6 |7.2",
         "topthink/think-orm": "^2.0",
         "ext-pdo": "*",
         "ext-ctype": "*"
